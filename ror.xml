@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="http://www.rorweb.com/ror.css" type="text/css"?>
+<!-- This is a ROR formatted XML document describing the resources of the website http://www.kidsdoor2doorservice.com/. For information about the ROR format, go to www.rorweb.com --> 
+<rdf:RDF xmlns="http://rorweb.com/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 
+
+<!-- ******************** Main Info ******************** --> 
+<Resource rdf:about="main">
+    <rorinfo>This is a ROR formatted XML document describing the resources of the website http://www.kidsdoor2doorservice.com/. For information about the ROR format, go to www.rorweb.com</rorinfo>
+    <type>Main</type>
+    <type>Website</type>
+    <title>Kids Door 2 Door Service</title>
+    <url>http://www.kidsdoor2doorservice.com/</url>
+    <desc>Transportation service for Children. Kids Door 2 Door Service is a transporation service designed exclusively for children.  We provide transportation for children ages 4-12 in the Livonia, Michigan area. Visit our web site for more information.</desc>
+    <keywords>taxi,transportation,kid transport,child transport,kids rides,cab,van service,carpool,bus,children,michigan,livonia,wayne county,kids,transporting,driving</keywords>
+</Resource>
+
+<!-- ******************** Contact Info ***************** --> 
+<Resource rdf:about="contact">
+    <type>Contact</type>
+    <title>Contact Info</title>
+    <name>Kids Door 2 Door Service</name>
+    <url>http://www.kidsdoor2doorservice.com/</url>
+    <phone>(734) 421-1236</phone>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="address">
+    <type>Address</type>
+    <title>Address</title>
+    <address1>30951 Five Mile Rd. #126</address1>
+    <city>Livonia</city>
+    <postalCode>48154</postalCode>
+    <stateRegion>MI</stateRegion>
+    <country>US</country>
+    <resourceOf rdf:resource="contact"/>
+</Resource>
+
+<!-- ******************** Site Map Info ***************** --> 
+<Resource rdf:about="sitemap">
+    <type>SiteMap</type>
+    <title>Sitemap Information</title>
+    <sitemapGoogle>http://</sitemapGoogle>
+    <sitemapROR>http://</sitemapROR>
+    <sitemapYahoo></sitemapYahoo>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="map-about">
+    <title>About</title>
+    <seeAlso rdf:resource="main"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+<Resource rdf:about="map-contact">
+    <title>Contact</title>
+    <seeAlso rdf:resource="contact"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+</rdf:RDF>
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+/* KD2DS Style Sheet */
+/* Define body background colors & font */
+body
+{
+font-family: times new roman, arial;
+font-size: 10pt;
+color: black;
+background-color: white;
+}
+/* Create a nav bar class of link named 'navbar' */
+a.navbar
+{
+width: 130px;
+padding: 0px;
+border-right: 12px black;
+border-left: 12px black;
+border-top: 12px black;
+border-bottom: 12px black;
+font-family: comic sans, arial;
+font-size: 10pt;
+font-weight: bold;
+text-decoration: underline;
+text-align: center;
+}
+a.navbar:link
+{
+color: black;
+background-color: none;
+}
+a.navbar:visited
+{
+color: black;
+background-color: none;
+}
+a.navbar:hover
+{
+color: white;
+background-color: gray;
+text-decoration: underline;
+}
+a.navbar:active
+{
+color: yellow;
+background-color: blue;
+text-decoration: none;
+}
+/* Header information class named after header */
+h1
+{
+font-family: times new roman,arial;
+font-weight: bold;
+font-style: none;
+color: black;
+text-align: center;
+}
+h2
+{
+font-family: times new roman,arial;
+font-weight: bold;
+font-style: none;
+color: black;
+text-align: center;
+}
+h3
+{
+font-family: times new roman,arial;
+font-weight: bold;
+font-style: none;
+color: black;
+text-align: center;
+}

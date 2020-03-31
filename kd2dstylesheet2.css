@@ -1,0 +1,59 @@
+/* KD2DS Style Sheet */
+/* Define body background colors & font */
+body
+{
+font-family: comic sans,arial;
+font-size: 10pt;
+color: black;
+background-color: #99ccff;
+}
+/* Create a nav bar class of link named 'navbar' */
+a.navbar
+{
+width: 150px;
+padding: 6px;
+border-right: 1px black;
+font-family: comic sans, arial;
+font-size: 10pt;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+}
+a.navbar:link
+{
+color: black;
+background-color: orange;
+}
+a.navbar:visited
+{
+color: black;
+background-color: orange;
+}
+a.navbar:hover
+{
+color: white;
+background-color: blue;
+text-decoration: underline;
+}
+a.navbar:active
+{
+color: white;
+background-color: purple;
+}
+/* Header information class named after header */
+h1
+{
+font-family: comic sans,arial;
+font-weight: bold;
+font-style: italic;
+color: black;
+text-align: left;
+}
+h2
+{
+font-family: comic sans,arial;
+font-weight: bold;
+font-style: italic;
+color: black;
+text-align: center;
+}
